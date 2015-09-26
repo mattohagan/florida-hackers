@@ -1,0 +1,35 @@
+{
+  "name": "florida-hackers",
+  "version": "0.0.0",
+  "description": "slack invites for florida-hackers",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattohagan/florida-hackers.git"
+  },
+  "keywords": [
+    "hackers",
+    "florida",
+    "hackathons"
+  ],
+  "author": "mattohagan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattohagan/florida-hackers/issues"
+  },
+  "homepage": "https://github.com/mattohagan/florida-hackers",
+  "dependencies": {
+    "logfmt": "^1.1.2",
+    "express": "^4.6.1",
+    "request": "^2.39.0",
+    "body-parser": "*",
+    "path": "^0.11.14",
+    "fs": "0.0.2",
+    "json": "^9.0.3",
+    "jade": "^1.9.2",
+    "slackin": "^0.5.1"
+  }
+}
